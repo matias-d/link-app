@@ -16,7 +16,7 @@ export const RegisterView = () => {
         
         <span className='flex  items-center gap-3'>
           ¿Ya tienes cuenta?
-          <Link to='/auth' className='text-base-primary hover:text-gray-100 transition-colors'>
+          <Link to='/link-app/auth/' className='text-base-primary hover:text-gray-100 transition-colors'>
             Ingresa
           </Link>
         </span>

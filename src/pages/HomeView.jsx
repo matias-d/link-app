@@ -35,7 +35,7 @@ export const HomeView = () => {
       await supabase.auth.signOut()
       setTimeout(() => {
         setMessage('')
-        navigate('/auth')
+        navigate('/link-app/auth')
       },1000)
       setMessage('Hasta pronto! ✋')
       
@@ -48,7 +48,7 @@ export const HomeView = () => {
     
     getUser().then(res => {
       if(!res.user){
-        navigate('/auth')
+        navigate('/link-app/auth')
       }
     })
   }, []);

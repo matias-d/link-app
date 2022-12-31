@@ -17,13 +17,13 @@ export const ForgetPasswordView = () => {
     <div className='flex flex-col gap-4 items-center '>
         <span className='flex  items-center gap-3'>
         ¿Ya tienes cuenta?
-        <Link to='/auth' className='text-base-primary hover:text-gray-100 transition-colors'>
+        <Link to='/link-app/auth' className='text-base-primary hover:text-gray-100 transition-colors'>
           Ingresa
         </Link>
       </span>
       <span className='flex  items-center gap-3'>
         ¿No tienes cuenta?
-        <Link to='/auth/register'className='text-base-primary hover:text-gray-100 transition-colors'>
+        <Link to='/link-app/auth/register'className='text-base-primary hover:text-gray-100 transition-colors'>
           Registrate
         </Link>
       </span>
