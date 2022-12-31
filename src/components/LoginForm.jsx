@@ -48,7 +48,7 @@ export const LoginForm = () => {
 
           setTimeout(() => {
             setMessage('')
-            navigate('/')
+            navigate('/link-app/')
           },2000)
 
           setMessage('Su ingreso ha sido exitoso')

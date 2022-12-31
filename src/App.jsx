@@ -17,7 +17,7 @@ function App() {
     <div className="bg-base-superdark min-h-screen text-white font-medium tracking-wider">
     <UserProvider>
       <Routes>
-        <Route path="/" element={<HomeView />
+        <Route path="/link-app/" element={<HomeView />
         }/>
         <Route path="/auth" element={<AuthLayout />}>
           <Route index element={<LoginView />}/>

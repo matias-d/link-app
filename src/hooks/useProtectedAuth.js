@@ -10,7 +10,7 @@ export const useProtectedAuth = () => {
     useEffect(() => {
       getUser().then(res => {
         if(res.user){
-          navigate('/')
+          navigate('/link-app/')
         }
       })
     }, []);

@@ -39,7 +39,7 @@ export const UpdatePasswordForm = () => {
 
           setTimeout(() => {
             setMessage('')
-            navigate('/')
+            navigate('/link-app/')
           },3000)
           setMessage('Su nueva contraseña fue cambiada con exito')
 
